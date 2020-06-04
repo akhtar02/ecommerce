@@ -1,0 +1,132 @@
+
+/* Navbar */
+.navbar{
+    height: 70px;
+    border-bottom: burlywood;
+}
+.nav-item :hover{
+    font-size: 22px;
+    color: chartreuse !important;
+   
+}
+.logo{
+    height: 50px;
+}
+
+.carousel-inner{
+    margin-top: 70px !important;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.navbar-toggler-icon{
+    color: black !important;
+}
+
+.fa-cart-plus , .fa-user-circle{
+    font-size: 30px !important;
+}
+
+/* Product */
+.product h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 60px  0 30px 0;
+}
+
+.card{
+    margin-top: 20px;
+    height: auto;
+}
+.card p{
+    font-weight: bold;
+}
+.btn-warning{
+    width: 100%;
+}
+
+/* main-footer */
+.main-footer{
+    height: 300px;
+    margin-top: 50px;
+    background-color: cyan;
+    padding-top: 40px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin{
+    font-size: 28px !important;
+    color: darkblue;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.Mobiles h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.laptops h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.printer h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+.footer{
+    height: 40px;
+    background-color: coral;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* about */
+.about{
+    margin-top: 100px ;
+}
+
+.about h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Contact us */
+
+.contact{
+    margin-top: 100px ;
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-footer {
+      
+    height: 400px;
+    }
+  }
